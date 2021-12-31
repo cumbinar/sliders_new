@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Slider</title>
+    <link rel="shortcut icon" href="images/logo 32 rojo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+</head>
+
+<body>
+
+    <div class="marco_slider">
+        <section id="va-cumbi-art">
+            <div class="contenedor">
+                <!-- Set up your HTML -->
+
+                <div class="owl-carousel">
+                    <div> <img src="images/BocetoIndio.jpg" alt=""> </div>
+                    <div> <img src="images/Buho.jpg" alt=""> </div>
+                    <div> <img src="images/caricia.jpg" alt=""> </div>
+                    <div> <img src="images/El chumado.jpg" alt=""> </div>
+                    <div> <img src="images/Fractal-001.png" alt=""> </div>
+                    <div> <img src="images/CuboMano.jpg" alt=""> </div>
+                    <div> <img src="images/Cumbi-0001.jpg" alt=""> </div>
+                    <div> <img src="images/Face-1.jpg" alt=""> </div>
+
+                    <div> <img src="images/Kandinsky-Bauhaus.jpg" alt=""> </div>
+                    <div> <img src="images/La copa.jpg" alt=""> </div>
+                    <div> <img src="images/La vaca.jpg" alt=""> </div>
+                    <div> <img src="images/Munshira.jpg" alt=""> </div>
+                    <div> <img src="images/Spock.jpg" alt=""> </div>
+                    <div> <img src="images/cumbifoto.jpg" alt=""> </div>
+                    <div> <img src="images/cumbinova.png" alt=""> </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--Inicia enlace js-->
+
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+        $('.menu-icon').click(function () {
+            $('header nav').slideToggle();
+        })
+    </script>
+    <!--Termina enlace js-->
+</body>
+
+</html>

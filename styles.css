@@ -1,0 +1,27 @@
+/*Reset todos los margin and padding*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Cambia margen del contenedor marco_slider*/
+
+.marco_slider {
+  margin: 3%;
+}
+
+/*Termina margen del contenedor marco_slider*/
+
+/*Cambia letra y margin de las flechas*/
+span {
+  font-size: 9vw;
+  color: rgb(3, 90, 250);
+  text-align: center;
+  padding: 0% 5vw;
+}
+
+.owl-nav {
+  text-align: center;
+}
+
+/*Termina cambio letra y margin de las flechas*/
